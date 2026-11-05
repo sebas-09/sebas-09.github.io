@@ -1,11 +1,11 @@
 const email = "sebas.tian5@live.com";
 const cases = {
-  tesis: {
-    category: "Proyecto de titulación · Desarrollo individual",
+  "tutor-ia": {
+    category: "Proyecto personal · Desarrollo individual",
     title: "Tutor virtual con IA en Second Life",
     lead: "Un mismo entorno para consultar información y aprender con acompañamiento.",
     image: "assets/arquitectura-tutor.svg",
-    alt: "Arquitectura del proyecto de titulación.",
+    alt: "Arquitectura del tutor virtual con IA.",
     sections: [
       ["El problema", "Una conversación informativa y una sesión de aprendizaje tienen necesidades diferentes. El proyecto reúne ambos modos dentro de un mundo virtual."],
       ["Mi aporte", "Desarrollé los cuatro componentes: el puente C#/.NET que interactúa con Second Life, el orquestador Python, el tutor informativo con RAG y el tutor de clases con persistencia."],
@@ -13,7 +13,8 @@ const cases = {
       ["Decisiones técnicas", "Separación de responsabilidades, control de reintentos y tiempos de espera, límites por sesión y adaptación de mensajes a las restricciones del chat de Second Life."],
     ],
     tech: "Python · Flask · Gemini · FAISS · MySQL · SQLAlchemy · C# · .NET 8 · LibreMetaverse",
-    note: "El esquema muestra la arquitectura; no es una captura del mundo virtual. El código de la tesis no está publicado."
+    code: "https://github.com/sebas-09/tutor-virtual-ia",
+    note: "El esquema muestra la arquitectura; no es una captura del mundo virtual."
   },
   chat: {
     category: "Aplicación web · Desarrollo individual",
